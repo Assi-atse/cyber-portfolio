@@ -1,14 +1,50 @@
 body {
-    font-family: Arial;
-    background: #0f172a;
-    color: white;
-    text-align: center;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #0a0f1c;
+    color: #e0e0e0;
 }
 
+/* Header */
 header {
-    padding: 30px;
+    background: linear-gradient(90deg, #0f172a, #020617);
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid #38bdf8;
 }
 
 h1 {
     color: #38bdf8;
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    border-bottom: 1px solid #1e293b;
+}
+
+/* Titles */
+h2 {
+    color: #22c55e;
+}
+
+/* Cards */
+.project {
+    background: #020617;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid #38bdf8;
+    transition: 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #38bdf8;
 }
