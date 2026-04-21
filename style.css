@@ -18,8 +18,8 @@ h1 {
     font-size: 40px;
 }
 
-p {
-    font-size: 18px;
+h2 {
+    color: #22c55e;
 }
 
 /* Sections */
@@ -28,12 +28,7 @@ section {
     border-bottom: 1px solid #1e293b;
 }
 
-/* Titles */
-h2 {
-    color: #22c55e;
-}
-
-/* Cards */
+/* Projects */
 .project {
     background: #020617;
     padding: 20px;
